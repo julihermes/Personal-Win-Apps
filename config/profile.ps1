@@ -12,5 +12,3 @@ Set-Alias ll runLL
 
 function runLT { lsd --tree }
 Set-Alias lt runLT
-
-Set-Alias lg lazygit
