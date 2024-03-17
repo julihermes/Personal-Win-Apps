@@ -24,7 +24,7 @@ $apps = @(
 );
 
 $CONTINUE = Read-Host -Prompt 'Would you like to continue with the install? (y,n)'
-if ($CONTINUE -eq 'y' || $CONTINUE -eq 'Y') {
+if ($CONTINUE -eq 'y' -or $CONTINUE -eq 'Y') {
   Write-Output "Starting..."
 } else {
   Write-Output "This script will now exit, no changes were made to your system."
