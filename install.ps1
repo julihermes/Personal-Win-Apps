@@ -19,7 +19,8 @@ $apps = @(
     @{name = "SumatraPDF.SumatraPDF" },
     @{name = "Logitech.GHUB" },
     @{name = "ShareX.ShareX" },
-    @{name = "9PM860492SZD" } # PC Manager
+    @{name = "9PM860492SZD" }, # PC Manager
+    @{name = "SamHocevar.WinCompose" }
 );
 
 $CONTINUE = Read-Host -Prompt 'Would you like to continue with the install? (y,n)'
