@@ -43,6 +43,7 @@ Foreach ($app in $apps) {
 }
 
 Write-Output "Coping starship file..."
+mkdir $HOME\.config
 cp config\starship.toml $HOME\.config\starship.toml
 
 Write-Output "Coping profile file..."
